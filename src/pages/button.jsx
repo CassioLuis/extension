@@ -1,7 +1,7 @@
 import styles from '../styles/button.module.css'
 
-export default function Button(){
+export default function Button(props){
     return (
-	    <button className={styles.consulta}></button>
+	    <button className={styles.consulta}>{props.meuCu}</button>
     )
 }
